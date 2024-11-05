@@ -1,0 +1,177 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    gap: 500px; 
+    color: white;
+    box-sizing: border-box;
+    margin-top: 20px;
+    align-items: center;
+}
+.image{
+    padding-left: 100px;
+}
+.img{
+    width: 20px; 
+} 
+a{
+    text-decoration: none;
+    color: blue;
+}
+button{
+    border: none;
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    gap: 300px;
+
+}
+.first{
+    color: #009379;
+    border: none;
+    background-color: white; 
+}
+.second{
+    border: none;
+    text-align: right;
+    background-color:#E5F4F2;
+    color:#009379;   
+}
+.third{
+    margin: auto;
+    background-color:#009379;
+    color: white;
+}
+.hero{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;   
+}
+.text{
+    font-size:60px;
+    width: 500px;
+    line-height: 80px ;
+    color: #2D2D2D;  
+}
+.para{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 450px;
+    line-height: normal;
+}
+.butin{
+    margin: auto;
+    background-color:#009379;
+    color: white; 
+}
+.last{
+    border: none;
+    border: 1px solid #009379;
+    border-radius: 20px;
+    background-color: white;
+    padding:10px;
+  
+}
+.iconic{
+    margin: 10px;
+    height: 60px;
+    border-top-style: groove;
+    border-bottom-style:groove ;
+    justify-items: center;  
+}
+.icons{
+    display: flex;
+    gap: 150px;
+    justify-content: center;
+    text-align: center;
+}
+.tests{
+    text-align: center;
+}
+.tee{
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #000000;
+}
+.tees{
+    color:#2D2D2D;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.landlord{
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    gap: 32px;
+    justify-content: center;
+    margin-top: 32px;
+    background-color: 1px solid #E5F4F2;
+    text-align: center;
+}
+.tenant{
+    height: 300px;
+    width: 300px;
+    justify-content: space-around;
+    border: 1px;
+    border-radius: 20px;
+    box-shadow: #2D2D2D;
+    box-shadow: 30px 20px 30px 20px #3366FF0D;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.flip{
+    background-color: white;   
+}
+.fly{
+    color: #009379;
+    align-items: center;
+}
+.president{
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    gap: 32px;
+    justify-content: center;
+    margin-top: 32px;
+    background-color: 1px solid #E5F4F2;
+    text-align: center;
+}
+.citizen h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.citizen p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.citizen{
+    height: 80px;
+    width: 200px;
+    justify-content: space-around;
+    border: 1px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-style: groove ;
+    border-bottom: 4px solid #F2BFAF;
+    box-shadow: #2D2D2D;
+    box-shadow: 30px 20px 30px 20px #3366FF0D;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;   
+}
+.footers h1{
+    font-size:60px;
+    width: 650px;
+    line-height: 80px ;
+    color: #2D2D2D;   
+}
+.footers p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 400px;
+    line-height: normal;
+}
