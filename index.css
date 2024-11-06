@@ -5,7 +5,7 @@ body{
 }
 nav{
     display: flex;
-    gap: 500px; 
+    gap: 400px; 
     color: white;
     box-sizing: border-box;
     margin-top: 20px;
@@ -15,42 +15,88 @@ nav{
     padding-left: 100px;
 }
 .img{
+    display: flex;
     width: 20px; 
+    height: 20px;
+    padding-top: 17px;
+    align-items: center;
+    justify-content: center;
 } 
-a{
+.hero a{
     text-decoration: none;
     color: blue;
-}
-button{
-    border: none;
-    width: 150px;
-    height: 50px;
-    border-radius: 20px;
-    gap: 300px;
-
 }
 .first{
     color: #009379;
     border: none;
+    font-weight: 600;
     background-color: white; 
 }
 .second{
     border: none;
-    text-align: right;
+    height: 60px;
+    width: 202px;
+    font-weight: 600;
     background-color:#E5F4F2;
-    color:#009379;   
+    color:#009379;  
+    border-radius: 20px; 
 }
 .third{
-    margin: auto;
-    background-color:#009379;
+    display: flex;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
     color: white;
+    justify-content: center;
+    gap: 8px;
+    width: 221px;
+    height: 60px;
+    border: 1px;
+    border-radius: 20px;
+    background-color: #009379; 
+    cursor: pointer;  
 }
+.secondly{
+    border: none;
+    height: 60px;
+    width: 202px;
+    font-weight: 600;
+    background-color:#E5F4F2;
+    color:#009379;  
+    border-radius: 20px; 
+}   
+
 .hero{
     display: flex;
     justify-content: space-evenly;
     margin-top: 30px;   
 }
+.heros{
+        border: none;
+        height: 60px;
+        width: 202px;
+        font-weight: 600;
+        background-color: white;
+        color:#009379;  
+        border-radius: 20px; 
+}
+.heros button{
+    display: flex;
+    border: none;
+    border: 1px solid #009379;
+    height: 60px;
+    width: 202px;
+    font-weight: 600;
+    background-color: white;
+    color:#009379;  
+    border-radius: 20px;
+    align-items: center; 
+    justify-content: center;
+    border-radius: 20px;
+}
 .text{
+   font-family: Poppins;
     font-size:60px;
     width: 500px;
     line-height: 80px ;
@@ -61,11 +107,10 @@ button{
     width: 450px;
     line-height: normal;
 }
-.butin{
-    margin: auto;
-    background-color:#009379;
-    color: white; 
+.hero button{
+    display: flex;
 }
+
 .last{
     border: none;
     border: 1px solid #009379;
@@ -74,18 +119,23 @@ button{
     padding:10px;
   
 }
+.sec{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center ;
+}
 .iconic{
     margin: 10px;
     height: 60px;
-    border-top-style: groove;
+    border-top-style:groove ;
     border-bottom-style:groove ;
     justify-items: center;  
 }
 .icons{
     display: flex;
     gap: 150px;
-    justify-content: center;
-    text-align: center;
+    padding-top: 15px;
 }
 .tests{
     text-align: center;
@@ -121,8 +171,24 @@ button{
     padding-left: 30px;
     padding-right: 30px;
 }
+.tenant button{
+    display: flex;
+    justify-content: center;
+}
 .flip{
-    background-color: white;   
+    border: none;
+    background-color: white; 
+    align-items: center;  
+    font-weight: 600;
+}
+.arrow{
+    padding-top: 4px;
+}
+.learn{
+    display: flex;
+    gap: px;
+    justify-content: center;
+    align-items: center ;   
 }
 .fly{
     color: #009379;
@@ -175,3 +241,36 @@ button{
     width: 400px;
     line-height: normal;
 }
+.last{
+    display: flex;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    justify-content: center;
+    width: 221px;
+    height: 60px;
+    border: 1px;
+    border-radius: 20px;
+    background-color: #009379; 
+    cursor: pointer; 
+    align-items: center; 
+}
+.footers a{
+    text-decoration: none;
+    border: none;
+    background: none; 
+    color: white;  
+    background-color:  #009379;
+}
+.footers button{
+    border: none;
+    font-weight: 600;
+    justify-content: center;
+    background-color: #009379; 
+}
+.row{
+    padding-top: 10px;
+}
+
+
